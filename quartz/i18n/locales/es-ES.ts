@@ -33,7 +33,7 @@ export default {
       title: "Explorador",
     },
     footer: {
-      createdWith: "Creado con",
+      createdWith: "Creado por ogeid usando",
     },
     graph: {
       title: "Vista Gráfica",
