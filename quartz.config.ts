@@ -6,18 +6,17 @@ const config: QuartzConfig = {
     pageTitle: "🪴",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: 
+      {provider: "google", tagId: "G-N4F655DZF4"},
     locale: "es-ES",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "bosquedigital.vercel.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Montserrat",
+        body: "Open Sans",
         code: "IBM Plex Mono",
       },
       colors: {
