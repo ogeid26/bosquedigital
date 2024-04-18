@@ -15,19 +15,19 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Philosopher",
+        header: "Poppins",
         body: "Lato",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#FFF67E",
+          light: "#FFF",
           lightgray: "#e5e5e5",
-          gray: "9BCF53",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#BFEA7C",
-          tertiary: "#84a59d",
+          gray: "#646464",
+          darkgray: "#0c0c0c",
+          dark: "#F11A7B",
+          secondary: "#982176",
+          tertiary: "#3E001F",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
