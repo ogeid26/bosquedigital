@@ -1,5 +1,28 @@
 @use "./base.scss";
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.0625em;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    margin-top: 1em;
+    margin-bottom: 0.25em;
+    margin-left: -0.0625em !important;
+}   
+
+.page .center {
+    margin-bottom: 0.5em;
+}
+
+
+
    /* Scrollbar */
 
 *::-webkit-scrollbar {
@@ -55,32 +78,21 @@ nav.breadcrumb-container {
 }
 
 
-// Heading
-
-h1.article-title {
-    margin: 0.625em 0 0.25em;
-}
 
 // Page Title
 
 h1.page-title {
     position: relative;
-    flex-basis: 100%;
-    font-size: var(--t4);
+    flex-basis: 60%;
+    font-size: var(--dark);
     margin: 0.0625em 0 0;
 }
 h1.page-title a {
-    text-decoration: none;
-    color: var(--dark);
+    font-family: monospace;
+      font-size: 1.5em;
 }
-h1.page-title svg {
-    position: absolute;
-    bottom: calc(100% + 0.5em);
-    left: -0.25em;
-    width: 13.5rem;
-    max-width: calc(100vw - 2em);
-    height: auto;
-}
+
+
 // Footer
 
 body footer {
@@ -102,6 +114,55 @@ body footer ul {
 body footer ul > * {
     margin-right: 1em;
 }
-body footer a {
-    color: var(--gray);
+
+// Graph
+
+div.graph {
+    margin-bottom: 2.875em;
+}
+div.graph > h3 {
+    font-size: var(--t6);
+}
+div.graph > .graph-outer {
+    margin: 0.5em 0 0;
+    border: 0.0625em solid var(--lightgray);
+    border-radius: calc(var(--r3) + var(--r1));
+}
+div.graph > .graph-outer > #global-graph-icon {
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.5em;
+    margin: 0.0625em;
+    border-radius: var(--r3);
+    stroke-width: 1.375px;
+    opacity: 1;
+}
+#graph-container svg {
+    width: 100%;
+}
+div.graph > #global-graph-outer {
+    backdrop-filter: blur(8px);
+    background-color: hsla(230, 15%, 16%, 0.2);
+}
+html[saved-theme="dark"] div.graph > #global-graph-outer {
+    background-color: hsla(60, 13%, 97%, 0.1);
+}
+div.graph > #global-graph-outer.active::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 16 16' fill='none'%3E%3Cpath stroke='currentColor' stroke-linecap='butt' stroke-width='1.5' d='M2 14L14 2'/%3E%3Cpath stroke='currentColor' stroke-linecap='butt' stroke-width='1.5' d='M14 14L2 2'/%3E%3C/svg%3E");
+    position: absolute;
+    top: 1.25em;
+    right: 1.25em;
+    pointer-events: none;
+}
+html[saved-theme="dark"] div.graph > #global-graph-outer.active::after {
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 16 16' fill='none'%3E%3Cpath stroke='%23f8f8f6' stroke-linecap='butt' stroke-width='1.5' d='M2 14L14 2'/%3E%3Cpath stroke='%23f8f8f6' stroke-linecap='butt' stroke-width='1.5' d='M14 14L2 2'/%3E%3C/svg%3E");
+}
+div.graph > #global-graph-outer > #global-graph-container {
+    width: 80vw;
+    max-width: calc(100vw - 2em);
+    height: 80vh;
+    max-height: calc(100vh - 2em);
+    max-height: calc(100dvh - 2em);
+    border-radius: calc(var(--r3) + var(--r5));
+    color: var(--dark);
 }

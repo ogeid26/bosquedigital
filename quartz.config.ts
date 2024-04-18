@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴",
+    pageTitle: "ogeid.forest",
     enableSPA: true,
     enablePopovers: true,
     analytics: 
@@ -21,7 +21,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "FFF67E",
+          light: "#FFF67E",
           lightgray: "#e5e5e5",
           gray: "9BCF53",
           darkgray: "#4e4e4e",
@@ -31,14 +31,14 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#000300",
+          light: "#0C0C0C",
           lightgray: "#393639",
           gray: "#646464",
             darkgray: "#fffeff",
           dark: "#89fc00",
           secondary: "#FFED00",
           tertiary: "#02a9ea",
-          highlight: "rgba(68, 68, 68, 0.20)",
+          highlight: "rgba(143, 159, 169, 0.15)",
         },
       },
     },
