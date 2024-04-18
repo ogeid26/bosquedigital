@@ -22,7 +22,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.RecentNotes({
@@ -33,14 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   right: [
     Component.TagList(),
-    Component.Graph({
-      localGraph: {
-        linkDistance: 50
-      },
-      globalGraph: {
-        linkDistance: 50
-      }
-    }),
+    Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.MobileOnly(Component.RecentNotes({

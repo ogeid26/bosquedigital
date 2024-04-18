@@ -1,3 +1,107 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+   /* Scrollbar */
+
+*::-webkit-scrollbar {
+    width: 0.5em;
+}
+*::-webkit-scrollbar-thumb {
+    border-radius: 0.5em;
+    background-color: var(--secondary);
+    border: 0.25em solid var(--light);
+
+}
+*::-webkit-scrollbar-thumb:hover {
+    background-color: var(--tertiary);
+}
+
+/* Handle */
+* {
+    scrollbar-color: var(--secondary) var(--light);
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background: var(--secondary) var(--light);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+} 
+
+// Breadcrumbs
+
+nav.breadcrumb-container {
+    --bcGap: 0.25em;
+    font-size: 1em;
+    color: var(--dark);
+    gap: unset;
+    opacity: 0.8;
+    .breadcrumb-element {
+        margin-right: var(--bcGap);
+        text-transform: capitalize;
+        &:last-child {
+            display: none;
+        }
+        > p {
+            display: none;
+        }
+        a {
+            color: var(--secondary);
+        }
+        &::after {
+            content: "/";
+            margin-left: var(--bcGap);
+            opacity: 0.4;
+        }
+    }
+}
+
+
+// Heading
+
+h1.article-title {
+    margin: 0.625em 0 0.25em;
+}
+
+// Page Title
+
+h1.page-title {
+    position: relative;
+    flex-basis: 100%;
+    font-size: var(--t4);
+    margin: 0.0625em 0 0;
+}
+h1.page-title a {
+    text-decoration: none;
+    color: var(--dark);
+}
+h1.page-title svg {
+    position: absolute;
+    bottom: calc(100% + 0.5em);
+    left: -0.25em;
+    width: 13.5rem;
+    max-width: calc(100vw - 2em);
+    height: auto;
+}
+// Footer
+
+body footer {
+    margin: 2em 0 4em;
+    opacity: 1;
+}
+body footer * {
+    color: var(--gray);
+}
+body footer > :first-child {
+    line-height: 125%;
+    margin-top: 0;
+}
+body footer ul {
+    flex-wrap: wrap;
+    gap: unset;
+    margin: -0.5em -1em 0 0;
+}
+body footer ul > * {
+    margin-right: 1em;
+}
+body footer a {
+    color: var(--gray);
+}
