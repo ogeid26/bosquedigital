@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Poppins",
-        body: "Open Sans",
+        body: "Mulish",
         code: "Fira Code",
       },
       colors: {
