@@ -16,8 +16,8 @@ const config: QuartzConfig = {
       cdnCaching: true,
       typography: {
         header: "Poppins",
-        body: "Lato",
-        code: "IBM Plex Mono",
+        body: "Open Sans",
+        code: "Fira Code",
       },
       colors: {
         lightMode: {
