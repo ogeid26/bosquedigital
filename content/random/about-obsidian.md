@@ -1,8 +1,6 @@
 ---
 title: Sobre este sitio
 ---
-
-
  Acá voy a almacenar mis pensamientos e ideas y voy a intentar ser lo más organizado posible. Pero de hecho, no tengo que serlo para poder organizarme bien. ¿Por qué? porque estoy utilizando Obsidian. 
  
  > [!info] ¿Pero qué es Obsidian?
