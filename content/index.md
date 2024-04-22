@@ -5,7 +5,7 @@ date: 2021-04-02
 ---
 ## :~)
 
-Este es mi bosque o **jardín digital**. La razón de ser de este blog la resume [Trevor](https://www.goodreads.com/user/show/175635-trevor), un señor australiano que reseña libros en Gooreads y dijo una frase que resonó mucho conmigo:
+Este es mi bosque o **jardín digital**. La razón de ser de este blog la resume [Trevor](https://www.goodreads.com/user/show/175635-trevor), un señor australiano que reseña libros en Goodreads y dijo una frase que resonó mucho conmigo:
 
 > *I believe writing is a form of practical thinking - that in writing we get to see what we think in ways that are not available to us in many other ways. However, this is only true if we write honestly and without concern that we 'might be wrong'. I strive to be as honest in my reviews as I can. Something you might want to consider pretty closely if you are thinking of offering your book to me to review.*
 
