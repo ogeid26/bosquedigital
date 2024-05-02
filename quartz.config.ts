@@ -9,14 +9,14 @@ const config: QuartzConfig = {
     analytics: 
       {provider: "google", tagId: "G-N4F655DZF4"},
     locale: "es-ES",
-    baseUrl: "bosquedigital.vercel.app",
+    baseUrl: "bosquedigital.ogeid.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       cdnCaching: true,
       typography: {
         header: "Poppins",
-        body: "Mulish",
+        body: "Raleway",
         code: "Fira Code",
       },
       colors: {
@@ -31,7 +31,7 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#0C0C0C",
+          light: "#0C0C0",
           lightgray: "#393639",
           gray: "#646464",
             darkgray: "#fffeff",
