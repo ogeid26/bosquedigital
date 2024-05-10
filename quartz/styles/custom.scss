@@ -32,7 +32,7 @@ nav.breadcrumb-container {
     font-size: 1em;
     color: var(--dark);
     gap: unset;
-    opacity: 0.8;
+    opacity: 1.0;
     .breadcrumb-element {
         margin-right: var(--bcGap);
         text-transform: capitalize;
@@ -48,7 +48,7 @@ nav.breadcrumb-container {
         &::after {
             content: "/";
             margin-left: var(--bcGap);
-            opacity: 0.4;
+            opacity: 1.0;
         }
     }
 }
@@ -141,4 +141,42 @@ div.graph > #global-graph-outer > #global-graph-container {
     max-height: calc(100dvh - 2em);
     border-radius: calc(var(--r3) + var(--r5));
     color: var(--dark);
+}
+
+
+article.popover-hint h1,
+
+
+article.popover-hint h1,
+article.popover-hint h2,
+article.popover-hint h3,
+article.popover-hint h4,
+article.popover-hint h5,
+article.popover-hint h6 {
+    padding-top: 1em;
+    margin-top: 0;
+}
+article.popover-hint hr + h1,
+article.popover-hint hr + h2,
+article.popover-hint hr + h3,
+article.popover-hint hr + h4,
+article.popover-hint hr + h5,
+article.popover-hint hr + h6 {
+    padding-top: 0;
+}
+article.popover-hint h2,
+article.popover-hint h3,
+article.popover-hint h4,
+article.popover-hint h5,
+article.popover-hint h6 {
+    padding-top: 1em;
+    margin-top: 0;
+}
+article.popover-hint hr + h1,
+article.popover-hint hr + h2,
+article.popover-hint hr + h3,
+article.popover-hint hr + h4,
+article.popover-hint hr + h5,
+article.popover-hint hr + h6 {
+    padding-top: 0;
 }

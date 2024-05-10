@@ -20,4 +20,3 @@ Ninguna idea vive libre de contexto y de gente que la piense. Actualmente, nuest
 
 Es interesante pensar que esto no es algo que nosotros inventamos sino algo cíclico. Por ejemplo, pensar que los 
 
-
