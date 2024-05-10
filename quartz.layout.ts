@@ -22,12 +22,11 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.RecentNotes({
       title: "Notas Recientes",
-      limit: 5
+      limit: 3
     })),
     Component.DesktopOnly(Component.Explorer()),
   ],
@@ -40,6 +39,7 @@ export const defaultContentPageLayout: PageLayout = {
         linkDistance: 50,
       }
     }),
+    Component.DesktopOnly(Component.Spacer()),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
     Component.MobileOnly(Component.RecentNotes({
