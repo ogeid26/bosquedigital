@@ -4,12 +4,13 @@
 
 h1.page-title a {
     font-family: monospace;
-      font-size: 1.5em;
+      padding-top: 2em; 
+      font-size: 2em;
 }
 // Basics
 
 :root {
-    --desktopMarginTop: 4em;
+    --desktopMarginTop: 1em;
     --r1: 0.0625rem;
     --r3: 0.1875rem;
     --r5: 0.3125rem;
@@ -20,9 +21,21 @@ h1.page-title a {
     --t5: 1em;
     --t6: 0.889em;
 }
+
 html {
     font-size: 100%;
+
 }
+
+
+body {
+    padding-left: 1em; /* Adjust the padding as needed */
+    padding-right: 1em; /* Adjust the padding as needed */
+    margin-top: 0;
+    text-align: justify;
+}
+
+
 ::selection {
     color: var(--light);
     background-color: var(--secondary);
@@ -41,7 +54,7 @@ li,
 p,
 strong {
     font-family: var(--bodyFont);
-    line-height: 150%;
+    line-height: 160%;
 }
 p {
     margin: 1em 0;
@@ -59,9 +72,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
+    font-weight: 600;
     line-height: 100%;
-    letter-spacing: -0.0625em;
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
@@ -133,16 +145,10 @@ ol ul {
 svg {
     stroke-linecap: butt;
 }
-blockquote {
-    padding: 0 0 0.25em 1.3125em;
-    margin: 1em 0;
-}
-blockquote > *:first-child {
-    margin-top: 0;
-}
-blockquote > *:last-child {
-    margin-bottom: 0;
-}
+// blockquote {
+//     padding: 1em;
+//     margin: 1em 0;
+// }
 blockquote > *:first-child::before,
 blockquote > *:last-child::after {
     display: inline-block;
@@ -150,11 +156,11 @@ blockquote > *:last-child::after {
     color: var(--lightgray);
 }
 blockquote > *:first-child::before {
-    content: "\201C";
+    // content: "\201C";
     text-indent: -0.5em;
 }
 blockquote > *:last-child::after {
-    content: "\201D";
+    // content: "\201D";
     text-indent: 0.125em;
     margin-top: -0.5em;
 }
@@ -285,14 +291,14 @@ a.gate:hover #banana {
 // Before Body Wrapper
 
 .page .page-header {
-    margin: var(--desktopMarginTop) auto 1em;
+    margin: 3em auto 1em;
 }
 
 // Breadcrumbs
 
 nav.breadcrumb-container {
     --bcGap: 0.25em;
-    font-size: 0.875em;
+    font-size: 1em;
     gap: unset;
     opacity: 0.9;
     .breadcrumb-element {
@@ -381,7 +387,7 @@ article > *:last-child {
             gap: unset;
             width: 15%;
             height: 100%;
-            padding: var(--desktopMarginTop) 1.5em 0;
+            padding: 3em 1.5em 0;
             margin-top: 0;
             overflow-y: auto;
             &.right {
@@ -637,7 +643,7 @@ div.graph > #global-graph-outer > #global-graph-container {
 // Recent
 
 .recent-notes {
-    margin: 0 0 1em;
+    margin: 0 0 3em;
 }
 div.recent-notes > h3 {
     font-size: var(--t6);
@@ -671,7 +677,7 @@ div.recent-notes > ul.recent-ul > li .section > .meta {
     pointer-events: none;
 }
 .explorer div#explorer h2 {
-    font-size: var(--t6);
+    font-size: var(--t5);
     margin: 0;
 }
 .explorer div#explorer .fold {
@@ -1065,7 +1071,7 @@ div.toc {
 
 @media (max-width: 1510px) {
     :root {
-        --desktopMarginTop: 4em;
+        --desktopMarginTop: 1em;
     }
     .page {
         padding: 0 1em;
