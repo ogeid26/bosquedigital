@@ -5,7 +5,7 @@
 h1.page-title a {
     font-family: monospace;
       padding-top: 2em; 
-      font-size: 2em;
+      font-size: 1.5em;
 }
 // Basics
 
@@ -31,8 +31,7 @@ html {
 body {
     padding-left: 1em; /* Adjust the padding as needed */
     padding-right: 1em; /* Adjust the padding as needed */
-    margin-top: 0;
-    text-align: justify;
+    margin-top: 1em;
 }
 
 
@@ -57,7 +56,8 @@ strong {
     line-height: 160%;
 }
 p {
-    margin: 1em 0;
+    margin: 1.5em 0;
+    text-align: justify;
 }
 strong {
     font-weight: 700;
@@ -68,7 +68,7 @@ hr {
 }
 h1,
 h2,
-h3,
+h32
 h4,
 h5,
 h6 {
@@ -77,8 +77,8 @@ h6 {
     word-wrap: break-word;
     overflow-wrap: break-word;
     hyphens: auto;
-    margin-top: 1em;
-    margin-bottom: 0.25em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
     margin-left: -0.0625em !important;
 }
 article.popover-hint h1,
@@ -322,6 +322,7 @@ nav.breadcrumb-container {
 
 h1.article-title {
     margin: 0.625em 0 0.25em;
+    padding-top: 1em;
 }
 
 // Meta

@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       typography: {
         header: "Poppins",
         // body: "Jost",
-        body: "SUSE",
+        body: "Open Sans",
         code: "Fira Code",
       },
       colors: {
