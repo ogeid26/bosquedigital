@@ -5,7 +5,7 @@
 h1.page-title a {
     font-family: monospace;
       padding-top: 2em; 
-      font-size: 1.5em;
+      font-size: 2em;
 }
 // Basics
 
@@ -66,7 +66,10 @@ hr {
     height: 0.0625em;
     margin: 3em auto;
 }
-h1,
+h1{
+
+    font-size: 3em;
+}
 h2,
 h32
 h4,
@@ -323,6 +326,16 @@ nav.breadcrumb-container {
 h1.article-title {
     margin: 0.625em 0 0.25em;
     padding-top: 1em;
+    font-size: 2.5em;
+            @media (max-width: 768px) {
+            font-size: 1.5em;
+        }
+        
+
+    @media (max-width: 768px) {
+        font-size: 1.5em;
+    }
+
 }
 
 // Meta
