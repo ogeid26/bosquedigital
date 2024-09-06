@@ -23,12 +23,12 @@
     "node": ">=18.14"
   },
   "keywords": [
-    "site generator",
-    "ssg",
-    "digital-garden",
-    "markdown",
+    "tech",
     "blog",
-    "quartz"
+    "love",
+    "empathy",
+    "politics",
+    "philosophy"
   ],
   "bin": {
     "quartz": "./quartz/bootstrap-cli.mjs"

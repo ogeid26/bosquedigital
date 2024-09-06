@@ -15,9 +15,8 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Poppins",
-        // body: "Jost",
-        body: "Open Sans",
+        header: "Inter",
+        body: "Inter",
         code: "Fira Code",
       },
       colors: {
@@ -32,7 +31,7 @@ const config: QuartzConfig = {
           highlight: "#F7EED3",
         },
         darkMode: {
-          light: "#0c0c0c",
+          light: "#100F0F",
           lightgray: "#393639",
           gray: "#646464",
             darkgray: "#FEF3E2",
