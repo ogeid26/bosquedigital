@@ -1,6 +1,8 @@
 ---
 tags:
   - guadagino
+
+draft: true
 ---
 Challengers trata sobre un partido de tenis. No, en verdad no. Trata sobre Tashi y la devoción ciega que le tiene al tenis. 
 

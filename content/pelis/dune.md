@@ -3,6 +3,8 @@ title: Dune de Denis Villeneuve
 date: 2024-05-05
 tags:
   - scifi
+
+draft: true
 ---
 Voy a hablar sobre ambas partes como una, así que si no has visto alguna ve a verla porque hay spoilers!
 

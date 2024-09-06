@@ -1,5 +1,6 @@
 ---
 title: Por qué escucho música
+draft: true
 ---
 ## Porque me gusta que puede crear estéticas y mundos enteros a partir de sonidos. 
 
