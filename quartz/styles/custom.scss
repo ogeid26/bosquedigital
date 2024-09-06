@@ -4,7 +4,6 @@
 
 h1.page-title a {
     font-family: monospace;
-      padding-top: 2em; 
       font-size: 2em;
 }
 // Basics
@@ -325,7 +324,7 @@ nav.breadcrumb-container {
 
 h1.article-title {
     margin: 0.625em 0 0.25em;
-    padding-top: 1em;
+    padding-top: 0.5em;
     font-size: 2.5em;
             @media (max-width: 768px) {
             font-size: 1.5em;
